@@ -21,7 +21,7 @@ const SpecialityMenu = () => {
             }}
             className="flex flex-col items-center text-sm cursor-pointer flex-shrink-0 hover:translate-y-[-10px] transition-all duration-500"
             key={index}
-            // to={`/doctor/${item.speciality}`}
+            to={`/doctors/${item.speciality}`}
           >
             <img src={item.image} alt="" className="w-16 sm:w-24 mb-2" />
             <p>{item.speciality}</p>

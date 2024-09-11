@@ -17,7 +17,7 @@ const Footer = () => {
         </div>
         {/* -----Center Section------   */}
         <div>
-          <p className="text-xl font-medium mb-5 ">COMPANY</p>
+          <p className="text-xl font-medium mb-5 font-mono">COMPANY</p>
           <ul className="flex flex-col gap-2 text-gray-600">
             <li>Home</li>
             <li>About us</li>
@@ -27,7 +27,7 @@ const Footer = () => {
         </div>
         {/* -----Right Section------   */}
         <div>
-          <p className="text-xl font-medium mb-5 ">GET IN TOUCH</p>
+          <p className="text-xl font-medium mb-5 font-mono">GET IN TOUCH</p>
           <ul className="flex flex-col gap-2 text-gray-600">
             <li>Phone: +1234567890</li>
             <li>Email: [info@company.com](mailto:info@company.com)</li>
@@ -39,7 +39,7 @@ const Footer = () => {
       <div>
         <hr />
         <p className="py-5 text-sm text-center">
-          Copyright 2023 Company Name. All rights reserved.
+          Copyright 2024 Company Name. All rights reserved.
         </p>
       </div>
     </div>

@@ -16,6 +16,8 @@ const Doctors = () => {
   };
 
   useEffect(() => {
+    console.log("Doctor useEffcet called");
+
     applyFilter();
   }, [doctors, speciality]);
   console.log(speciality);
